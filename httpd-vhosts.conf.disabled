@@ -1,7 +1,7 @@
 <VirtualHost *:80>
     ServerName DOMAIN.dev
     ServerAlias www.DOMAIN.dev
-    DocumentRoot "INSTALL_DIR/apps/APP_FOLDER/htdocs/web"
+    DocumentRoot "INSTALL_DIR/apps/APP_FOLDER/htdocs"
     
     Include "INSTALL_DIR/apps/APP_FOLDER/conf/httpd-app.conf"
 </VirtualHost>
@@ -9,7 +9,7 @@
 #<VirtualHost *:443>
 #    ServerName DOMAIN.dev
 #    ServerAlias www.DOMAIN.dev
-#    DocumentRoot "INSTALL_DIR/apps/APP_FOLDER/htdocs/web"
+#    DocumentRoot "INSTALL_DIR/apps/APP_FOLDER/htdocs"
 #    SSLEngine on
 #    SSLCertificateFile "INSTALL_DIR/apps/APP_FOLDER/conf/certs/DOMAIN.crt"
 #    SSLCertificateKeyFile "INSTALL_DIR/apps/APP_FOLDER/conf/certs/DOMAIN.key"
