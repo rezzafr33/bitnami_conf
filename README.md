@@ -3,7 +3,6 @@ README FIRST!!
 Go to your application folder then clone this repo:
 ```
 > git clone https://github.com/rezzafr33/bitnami_conf.git conf
-
 > cd conf && rm -rf .git
 ```
 
