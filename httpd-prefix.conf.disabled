@@ -1,0 +1,4 @@
+Alias /APP_FOLDER/ "INSTALL_DIR/apps/APP_FOLDER/htdocs/"
+Alias /APP_FOLDER "INSTALL_DIR/apps/APP_FOLDER/htdocs"
+
+Include "INSTALL_DIR/apps/APP_FOLDER/conf/httpd-app.conf"
