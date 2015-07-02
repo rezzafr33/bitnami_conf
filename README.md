@@ -25,8 +25,7 @@ Remove or comment out all include line then add this line:
 
 For Xampp:
 ----------
-Dont forget to edit INSTALL_DIR/apache2/conf/bitnami/httpd.conf 
-
+Dont forget to edit INSTALL_DIR/apache2/conf/bitnami/httpd.conf
 Remove or comment out all include line then add this line:
 ```
 IncludeOptional "INSTALL_DIR/apps/*/conf/httpd-prefix.con[f]"
